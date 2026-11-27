@@ -34,8 +34,7 @@ class Settings(BaseSettings):
     admin_hoot_email: str
     admin_hoot_senha: SecretStr
 
-    # CORS: origens separadas por vírgula
-    cors_origens: str = "http://localhost:5173"
+    cors_origins: list[str] = ["http://localhost:5173", "http://localhost:3000"]
 
     # Valores dos requisitos
     tempo_resposta_max_segundos: int = 3
