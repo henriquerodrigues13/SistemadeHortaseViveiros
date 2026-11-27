@@ -70,7 +70,7 @@ venv.bak/
 # ============================================
 backend/models/database_drop.py
 backend/API/.env
-.env.*
+.env.
 .env.local
 .env.development
 .env.production
